@@ -1,0 +1,300 @@
+@media  only screen and (0<width<=480px) {
+    body{
+      background: red;
+    }
+
+    #logo img.wckid{
+        height: 55vh;
+        width: 55vw;
+        position: relative;
+        top: -20%;
+    }
+
+    .wckid-exclusive{
+        position: absolute;
+        top: 1%;
+        right: -8%;
+    }
+    .pack-name {
+        gap: 1rem;
+        position: absolute;
+        top: 6%;
+        right: 35%;
+    
+    }
+    
+    .pack-name h1.name-break {
+        font-weight: 700;
+        font-family: 'Druk';
+        font-size: 20px;
+    }
+
+    
+    .mutiny-hands{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        z-index: 1;
+        mix-blend-mode: screen;
+    }
+    .mutiny-hands img{
+        height: 80vh;
+        width: 90vw;
+    }
+
+
+    
+.mutiny-outlined-text h1.outline{
+    font-size: 1.3rem;
+}
+.mutiny-outlined-text{
+    position: relative;
+    left: 15%;
+    bottom: 68vh;
+    
+}
+.mutiny-outlined-text .stroked{
+    color: transparent; 
+    -webkit-text-stroke: 0.5px white; 
+    height: 2vh;
+    margin-bottom: -10px;
+
+ 
+}
+.mutiny-para{
+    width: 70vw;
+    height: 30vh;
+    position: relative;
+    top: -60vh;
+    left: 15%;
+}
+.mutiny-para-2{
+    width: 70vw;
+    height: 10vh;
+    position: relative;
+    top: -120vh;
+    left: 15%;
+  
+}
+
+.mutiny-para-3{
+    width: 70vw;
+    height: 27vh;
+    position: relative;
+    left: 15%;
+    top: -34vh;
+    padding: 1rem;
+
+    
+}
+
+.testimonials-container{
+    gap: 1vw;
+    width: 70vw;
+    height: 25vh;
+    position: relative;
+    left: 15%;
+    top: -100vh;
+    border: 2px solid red;
+    padding: 1rem;
+    
+}
+
+.buy-btn {
+    font-size: 17px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    width: 70vw;
+    height: 70%;
+    color: red;
+  }
+  .btn-area{
+    height: 10vh;
+    position: relative;
+    bottom: 22vh;
+}
+.sample-audio{
+    width: 86%;
+    padding: 4rem;
+    position: relative;
+    bottom: 40vh;
+    left: 7vw;
+    border: 2px solid red;
+}
+.sample-audio-1{
+    width: 100%;
+    flex-direction: column;
+ 
+}
+.waves{
+    width: 40vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:480px) and (max-width:780px) {
+    body{
+      background: green;
+    }
+    #logo img.wckid{
+        height: 55vh;
+        width: 55vw;
+        position: relative;
+        top: -20%;
+    }
+
+    .wckid-exclusive{
+        position: absolute;
+        top: 1%;
+        right: -2%;
+    }
+    .pack-name {
+        gap: 1rem;
+        position: absolute;
+        top: 6%;
+        right: 42%;
+    
+    }
+    
+    .pack-name h1.name-break {
+        font-weight: 700;
+        font-family: 'Druk';
+        font-size: 20px;
+    }
+
+    
+    .mutiny-hands{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        z-index: 1;
+        mix-blend-mode: screen;
+    }
+    .mutiny-hands img{
+        height: 80vh;
+        width: 90vw;
+    }
+
+
+    
+.mutiny-outlined-text h1.outline{
+    font-size: 3rem;
+}
+.mutiny-outlined-text{
+    position: relative;
+    left: 15%;
+    bottom: 65vh;
+    
+}
+.mutiny-outlined-text .stroked{
+    color: transparent; 
+    -webkit-text-stroke: 0.5px white; 
+    height: 4vh;
+    margin-bottom: -10px;
+
+ 
+}
+.mutiny-para{
+    width: 70vw;
+    height: 30vh;
+    position: relative;
+    top: -60vh;
+    left: 15%;
+}
+.mutiny-para-2{
+    width: 70vw;
+    height: 10vh;
+    position: relative;
+    top: -120vh;
+    left: 15%;
+  
+}
+
+.mutiny-para-3{
+    width: 70vw;
+    height: 27vh;
+    position: relative;
+    left: 15%;
+    top: -34vh;
+    padding: 1rem;
+
+    
+}
+
+.testimonials-container{
+    gap: 1vw;
+    width: 70vw;
+    height: 25vh;
+    position: relative;
+    left: 15%;
+    top: -100vh;
+    border: 2px solid red;
+    padding: 1rem;
+    
+}
+
+.buy-btn {
+    font-size: 17px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    width: 70vw;
+    height: 70%;
+    color: red;
+  }
+  .btn-area{
+    height: 10vh;
+    position: relative;
+    bottom: 22vh;
+}
+.sample-audio{
+    width: 86%;
+    padding: 4rem;
+    position: relative;
+    bottom: 40vh;
+    left: 7vw;
+    border: 2px solid red;
+}
+.sample-audio-1{
+    width: 100%;
+    flex-direction: column;
+ 
+}
+.waves{
+    width: 40vw;
+}
+}
+

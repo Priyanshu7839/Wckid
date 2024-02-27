@@ -1,0 +1,66 @@
+
+.slide-row{
+    display: flex;
+    width: 100vw;
+    transition: 0.5s;
+}
+.slide-col{
+    height: 25vh;
+    width: 25vw;
+    position: relative;
+    border: 2px solid red;
+    padding: 1rem;
+  
+}
+
+.testimonials-container{
+    gap: 1vw;
+    flex-direction: column;
+    width: 25vw;
+    height: 25vh;
+    position: relative;
+    left: 68%;
+    top: -64vh;
+    border: 2px solid red;
+    padding: 1rem;
+    z-index: 2;
+    
+}
+
+.indicator{
+    position: absolute;
+    left: 50%;transform: translateX(-50%);
+    bottom: -24px;
+}
+
+.slide-btn-active{
+    background: red;
+}
+.testimonials{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;left: 0;
+}
+.user-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+}
+.user-section img.user-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+}
+.user-info{
+    margin-left: 10vw;
+}
+.user-reviews{
+    margin-top: 3vh;
+}
+.user-reviews p{
+    text-align: justify;
+    text-transform: capitalize;
+}
